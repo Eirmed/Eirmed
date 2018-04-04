@@ -1,0 +1,75 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */
+
+.fl-page-nav-right .fl-page-header-wrap {
+    border: none;
+    transition: box-shadow 0.4s ease;
+}
+
+.fl-shrink-header .fl-page-header-wrap {
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.fl-contact-form input[type=email],
+.fl-contact-form input[type=text],
+.fl-contact-form input[type=text],
+.fl-contact-form textarea {
+    border: 1px solid #149fb9;
+    border-radius: 0;
+}
+
+#menu-footer-menu li {
+    display: block;
+}
+
+#menu-main-nav li:last-of-type {
+    background-color: #149fb9;
+    color: #fff;
+    text-align: center;
+    margin-top: 7px;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+#menu-main-nav ul li:last-of-type {
+    color: #727272;
+    background-color: initial;
+    text-align: left;
+    margin-top: 0;
+}
+
+#menu-main-nav ul li:last-of-type:hover {
+    background-color: initial;
+    color: #ef7f1a;
+}
+
+#menu-main-nav li:last-of-type:hover {
+    background-color: #ef7f1a;
+}
+
+#menu-main-nav li:last-of-type a {
+    color: inherit;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bolder;
+}
+
+#menu-main-nav ul li:last-of-type a {
+    padding: 10px 15px;
+    font-weight: lighter;
+}
+
+.eirmed-single-post,
+.fl-archive {
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
